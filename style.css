@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.texto-legivel {
+  color: #222222; /* Alto contraste em relação ao fundo branco */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Garante indicador visual claro ao navegar com a tecla Tab */
+input:focus, button:focus {
+  outline: 3px solid #ff9900;
+  outline-offset: 2px;
+}
